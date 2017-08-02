@@ -1,0 +1,41 @@
+Flash firmware:
+	https://nodemcu.readthedocs.io/en/master/en/flash/
+
+Make firmware:
+	http://nodemcu-build.com/	
+
+Install firmware:
+	https://github.com/marcelstoer/nodemcu-pyflasher
+
+Upload code: 
+	https://nodemcu.readthedocs.io/en/master/en/upload/
+	https://github.com/4refr0nt/ESPlorer
+
+	$sudo java -jar ESPlorer.jar 
+
+
+
+UART download mode (for flashing new firmware):
+	ESP SIDE - > UART SIDE : 
+	VCC - > 3.3V 
+	GND - > GND 
+	RX - > TX 
+	TX - > RX 
+	CH_PD- > 3.3V 
+	GPIO0- > GND 
+	(Em um dos chips tive q conectar o GPIO15 no GND e i GPIO2 no 3.3V)
+
+Modo para subir programa usando o ESPlorer:
+	ESP SIDE - > UART SIDE : 
+	VCC - > 3.3V 
+	GND - > GND 
+	RX - > TX 
+	TX - > RX 
+	CH_PD- > 3.3V 
+	GPIO0- > 3.3V  
+
+Mapa dos GPIOs:
+	https://nodemcu.readthedocs.io/en/master/en/modules/gpio/
+
+Tempo:
+	http://openweathermap.org/appid#use
